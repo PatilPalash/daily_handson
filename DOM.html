@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- 1) Write the code to access element which is having id as "text" -->
+    <div id="text">Forid</div>
+    <button onclick="forid()">Click Me</button>
+    
+    <!-- 2) Write the code to access element which is having tag as "h1" -->
+    <h1 id="change">Fortag</h1>
+    <button onclick="fortag()">Click Me</button>
+
+    <!-- 3) Write the code to access element which is having class as "box" -->
+    <div class="Box1">Forbox</div>
+    <button onclick="forclass()">Click Me</button>
+
+    <!-- 4) Change the heading from ""Hello"" to ""Hello World"" using DOM functions" -->
+    <h1 id="headingchange">"Hello"</h1>
+    <button onclick="changeheading()">Click Me</button>
+    
+    <!-- 5) Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction".
+    When user clicks on this button, the cards arrangement should be changed to vertical direction. -->
+    <div id="container">
+       <div class="box">Box1</div>
+       <div class="box">Box1</div>
+       <div class="box">Box1</div>
+    </div>
+    <button onclick="clickme()">Flex direction</button> 
+
+    <!-- 6) Add one style attribute and give text color 
+    as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions" -->
+    <h1 id="colorchange">Hello</h1>
+    <button onclick="heading()">Click Me</button>
+
+    <!-- 7) Create an HTML page having content as Hello world and a button named Replace Text.
+    When user will click on this button page content should be changed to "Welcome to Elevation academy" -->
+    <h1 id="elevation">Hello World</h1>
+    <button onclick="replacecontent()">Click Me</button>
+
+    <!-- 12) Create a select drop down for selecting Year 20-21, 21-22 etc. Print the item text selected -->
+    
+    <p>Select one from the given Options:</p>
+    
+    <select name="" id="text1">
+    
+    <option value="20-21">Year 20-21</option>
+    <option value="21-22">Year 21-22</option>
+    <option value="22-23">Year 22-23</option>
+    
+    </select> <br><br><br>
+    <button onclick="getOption()">Click here</button>
+    <p >The value of the selcted Option is :
+    <span id="output"></span>
+    </p>
+    
+
+</body>
+</html>
